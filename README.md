@@ -4,6 +4,8 @@ Most of the SDK for the Chinese stock market is based on Python. It makes it har
 
 This project is designed to solve this problem. It is based on Flask.
 
+Why is it based on Flask? Because it will add more SDK and features, using Flask makes us focus on our purpose.
+
 So far, it just includes one SDK, but if you have the other SDK to add, please let me know.
 
 
@@ -26,10 +28,9 @@ python3 -m venv vmev
 
 source .venv/bin/active
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 flask --app app run
 
-exit
 ```
 
